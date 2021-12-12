@@ -1,6 +1,6 @@
 from .helpers import Command, Position
 
-path = __file__.replace("\\", "/").replace("__main__.py", "")
+path = __file__.replace('\\', '/').replace('__main__.py', '')
 
 with open(f'{path}/input') as f:
     data = f.read()
