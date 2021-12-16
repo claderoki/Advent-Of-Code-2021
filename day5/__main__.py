@@ -44,8 +44,8 @@ def __increment_vertically(rows: list, start: Position, end: Position):
 def __increment_diagonally(rows: list, start: Position, end: Position):
     y = list(__range(start.y, end.y))
     for index, x in enumerate(__range(start.x, end.x)):
-        cell  = x
-        row = y[index]
+        cell = x
+        row  = y[index]
         rows[row][cell].count += 1
 
 def increment(rows: list, start: Position, end: Position):
