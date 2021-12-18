@@ -13,7 +13,7 @@ RESET_TIMER = 6
 def count_fish(days: int, debug: bool = False) -> int:
     fishes = {x:0 for x in range(NEW_TIMER+1)}
 
-    for value in data.split(","):
+    for value in data.split(','):
         fishes[int(value)] += 1
 
     if debug:

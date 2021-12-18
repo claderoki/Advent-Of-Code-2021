@@ -14,7 +14,7 @@ class Cell(Base):
         self.count = 0
 
     def __str__(self) -> str:
-        return str(self.count) if self.count > 0 else "."
+        return str(self.count) if self.count > 0 else '.'
 
 class Position(Base):
     __slots__ = ('x', 'y')

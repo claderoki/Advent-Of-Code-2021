@@ -7,7 +7,7 @@ with open(f'{path}/input') as f:
 
 def debug_rows(rows: list):
     for row in rows:
-        print("".join([str(x) for x in row]))
+        print(''.join([str(x) for x in row]))
 
 positions = []
 for line in data.splitlines():
